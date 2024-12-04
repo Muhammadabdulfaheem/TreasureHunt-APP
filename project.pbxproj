@@ -42,6 +42,7 @@
 		43F66F6E2D0048BE00F3570B /* HomeTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66F6D2D0048BE00F3570B /* HomeTabViewModel.swift */; };
 		43F66F712D00518500F3570B /* ViewAllCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66F702D00518500F3570B /* ViewAllCategories.swift */; };
 		43F66F732D0055C300F3570B /* HorizontalGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66F722D0055C300F3570B /* HorizontalGrid.swift */; };
+		43F66F762D00DBAE00F3570B /* HomeVerticalGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66F752D00DBAE00F3570B /* HomeVerticalGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		43F66F6D2D0048BE00F3570B /* HomeTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewModel.swift; sourceTree = "<group>"; };
 		43F66F702D00518500F3570B /* ViewAllCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllCategories.swift; sourceTree = "<group>"; };
 		43F66F722D0055C300F3570B /* HorizontalGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGrid.swift; sourceTree = "<group>"; };
+		43F66F752D00DBAE00F3570B /* HomeVerticalGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVerticalGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -415,6 +417,7 @@
 			children = (
 				43F66F702D00518500F3570B /* ViewAllCategories.swift */,
 				43F66F722D0055C300F3570B /* HorizontalGrid.swift */,
+				43F66F752D00DBAE00F3570B /* HomeVerticalGrid.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -564,6 +567,7 @@
 				43F66F732D0055C300F3570B /* HorizontalGrid.swift in Sources */,
 				435DCB042CF6351D0038A705 /* UserModel.swift in Sources */,
 				43F66F712D00518500F3570B /* ViewAllCategories.swift in Sources */,
+				43F66F762D00DBAE00F3570B /* HomeVerticalGrid.swift in Sources */,
 				435DCAFA2CF634600038A705 /* SingupBackground.swift in Sources */,
 				435DCAB82CF62D750038A705 /* WigglezTreasueApp.swift in Sources */,
 				435DCB002CF634F90038A705 /* DBManager.swift in Sources */,
