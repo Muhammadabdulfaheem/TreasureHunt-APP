@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		433C275A2CF74BA900BDD653 /* NewPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433C27592CF74BA900BDD653 /* NewPasswordViewModel.swift */; };
+		433C275D2CF74BFA00BDD653 /* NewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433C275C2CF74BFA00BDD653 /* NewPasswordView.swift */; };
+		433C275F2CF74ECF00BDD653 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433C275E2CF74ECF00BDD653 /* Launch Screen.storyboard */; };
+		433C27642CF75B1400BDD653 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433C27632CF75B1400BDD653 /* HomeView.swift */; };
+		435DCAB82CF62D750038A705 /* WigglezTreasueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAB72CF62D750038A705 /* WigglezTreasueApp.swift */; };
+		435DCABA2CF62D760038A705 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAB92CF62D760038A705 /* ContentView.swift */; };
+		435DCABC2CF62D770038A705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435DCABB2CF62D770038A705 /* Assets.xcassets */; };
+		435DCABF2CF62D770038A705 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435DCABE2CF62D770038A705 /* Preview Assets.xcassets */; };
+		435DCAC92CF62D770038A705 /* WigglezTreasueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAC82CF62D770038A705 /* WigglezTreasueTests.swift */; };
+		435DCAD32CF62D770038A705 /* WigglezTreasueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAD22CF62D770038A705 /* WigglezTreasueUITests.swift */; };
+		435DCAD52CF62D770038A705 /* WigglezTreasueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAD42CF62D770038A705 /* WigglezTreasueUITestsLaunchTests.swift */; };
+		435DCAE92CF632F20038A705 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAE82CF632F20038A705 /* ColorConstants.swift */; };
+		435DCAEB2CF633050038A705 /* FontsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAEA2CF633050038A705 /* FontsConstants.swift */; };
+		435DCAED2CF633250038A705 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAEC2CF633250038A705 /* Color+Extension.swift */; };
+		435DCAEF2CF6333A0038A705 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAEE2CF6333A0038A705 /* Image+Extension.swift */; };
+		435DCAF22CF633660038A705 /* CustomSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAF12CF633660038A705 /* CustomSubmitButton.swift */; };
+		435DCAF52CF633E20038A705 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAF42CF633E20038A705 /* CustomTextField.swift */; };
+		435DCAF72CF634290038A705 /* OTPTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAF62CF634290038A705 /* OTPTextFields.swift */; };
+		435DCAFA2CF634600038A705 /* SingupBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAF92CF634600038A705 /* SingupBackground.swift */; };
+		435DCAFC2CF634AA0038A705 /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAFB2CF634AA0038A705 /* SignupModel.swift */; };
+		435DCB002CF634F90038A705 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCAFF2CF634F90038A705 /* DBManager.swift */; };
+		435DCB042CF6351D0038A705 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB032CF6351D0038A705 /* UserModel.swift */; };
+		435DCB082CF6356B0038A705 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB072CF6356B0038A705 /* OnboardingView.swift */; };
+		435DCB0B2CF6359D0038A705 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB0A2CF6359D0038A705 /* SignupView.swift */; };
+		435DCB0D2CF635A80038A705 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB0C2CF635A80038A705 /* SignupViewModel.swift */; };
+		435DCB102CF635EF0038A705 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB0F2CF635EF0038A705 /* LoginViewModel.swift */; };
+		435DCB122CF636010038A705 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB112CF636010038A705 /* LoginView.swift */; };
+		435DCB152CF636290038A705 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB142CF636290038A705 /* ResetPasswordView.swift */; };
+		435DCB172CF636430038A705 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB162CF636430038A705 /* ResetPasswordViewModel.swift */; };
+		435DCB1A2CF636750038A705 /* VerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB192CF636750038A705 /* VerificationCodeView.swift */; };
+		435DCB1C2CF636870038A705 /* VerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB1B2CF636870038A705 /* VerificationViewModel.swift */; };
+		43F66F6C2D00483E00F3570B /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66F6B2D00483E00F3570B /* HomeTabView.swift */; };
+		43F66F6E2D0048BE00F3570B /* HomeTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66F6D2D0048BE00F3570B /* HomeTabViewModel.swift */; };
+		43F66F712D00518500F3570B /* ViewAllCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66F702D00518500F3570B /* ViewAllCategories.swift */; };
+		43F66F732D0055C300F3570B /* HorizontalGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66F722D0055C300F3570B /* HorizontalGrid.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		435DCAC52CF62D770038A705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435DCAAC2CF62D750038A705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435DCAB32CF62D750038A705;
+			remoteInfo = WigglezTreasue;
+		};
+		435DCACF2CF62D770038A705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435DCAAC2CF62D750038A705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435DCAB32CF62D750038A705;
+			remoteInfo = WigglezTreasue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		433C27592CF74BA900BDD653 /* NewPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewModel.swift; sourceTree = "<group>"; };
+		433C275C2CF74BFA00BDD653 /* NewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordView.swift; sourceTree = "<group>"; };
+		433C275E2CF74ECF00BDD653 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		433C27632CF75B1400BDD653 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		435DCAB42CF62D750038A705 /* WigglezTreasue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WigglezTreasue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435DCAB72CF62D750038A705 /* WigglezTreasueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WigglezTreasueApp.swift; sourceTree = "<group>"; };
+		435DCAB92CF62D760038A705 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		435DCABB2CF62D770038A705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		435DCABE2CF62D770038A705 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		435DCAC42CF62D770038A705 /* WigglezTreasueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WigglezTreasueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		435DCAC82CF62D770038A705 /* WigglezTreasueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WigglezTreasueTests.swift; sourceTree = "<group>"; };
+		435DCACE2CF62D770038A705 /* WigglezTreasueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WigglezTreasueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		435DCAD22CF62D770038A705 /* WigglezTreasueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WigglezTreasueUITests.swift; sourceTree = "<group>"; };
+		435DCAD42CF62D770038A705 /* WigglezTreasueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WigglezTreasueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		435DCAE82CF632F20038A705 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		435DCAEA2CF633050038A705 /* FontsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsConstants.swift; sourceTree = "<group>"; };
+		435DCAEC2CF633250038A705 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		435DCAEE2CF6333A0038A705 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		435DCAF12CF633660038A705 /* CustomSubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSubmitButton.swift; sourceTree = "<group>"; };
+		435DCAF42CF633E20038A705 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		435DCAF62CF634290038A705 /* OTPTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFields.swift; sourceTree = "<group>"; };
+		435DCAF92CF634600038A705 /* SingupBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingupBackground.swift; sourceTree = "<group>"; };
+		435DCAFB2CF634AA0038A705 /* SignupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
+		435DCAFF2CF634F90038A705 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		435DCB032CF6351D0038A705 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		435DCB072CF6356B0038A705 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		435DCB0A2CF6359D0038A705 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		435DCB0C2CF635A80038A705 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		435DCB0F2CF635EF0038A705 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		435DCB112CF636010038A705 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		435DCB142CF636290038A705 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		435DCB162CF636430038A705 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
+		435DCB192CF636750038A705 /* VerificationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeView.swift; sourceTree = "<group>"; };
+		435DCB1B2CF636870038A705 /* VerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewModel.swift; sourceTree = "<group>"; };
+		43F66F6B2D00483E00F3570B /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		43F66F6D2D0048BE00F3570B /* HomeTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewModel.swift; sourceTree = "<group>"; };
+		43F66F702D00518500F3570B /* ViewAllCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllCategories.swift; sourceTree = "<group>"; };
+		43F66F722D0055C300F3570B /* HorizontalGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGrid.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		435DCAB12CF62D750038A705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435DCAC12CF62D770038A705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435DCACB2CF62D770038A705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433C27582CF74B9700BDD653 /* NewPassword */ = {
+			isa = PBXGroup;
+			children = (
+				433C27592CF74BA900BDD653 /* NewPasswordViewModel.swift */,
+				433C275C2CF74BFA00BDD653 /* NewPasswordView.swift */,
+			);
+			path = NewPassword;
+			sourceTree = "<group>";
+		};
+		433C27602CF75AE300BDD653 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				435DCB062CF635440038A705 /* Onboarding */,
+				435DCB092CF635900038A705 /* Signup */,
+				435DCB0E2CF635E40038A705 /* Login */,
+				435DCB132CF636160038A705 /* ResetPassword */,
+				435DCB182CF6365D0038A705 /* VerificationCode */,
+				433C27582CF74B9700BDD653 /* NewPassword */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		433C27612CF75B0000BDD653 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				43F66F682D00480100F3570B /* ProfileTab */,
+				43F66F672D0047FA00F3570B /* LeaderTab */,
+				43F66F662D0047EA00F3570B /* QuizesTab */,
+				43F66F642D0047CD00F3570B /* HomeTab */,
+				433C27622CF75B0600BDD653 /* Home */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		433C27622CF75B0600BDD653 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				433C27632CF75B1400BDD653 /* HomeView.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		435DCAAB2CF62D750038A705 = {
+			isa = PBXGroup;
+			children = (
+				435DCAB62CF62D750038A705 /* WigglezTreasue */,
+				435DCAC72CF62D770038A705 /* WigglezTreasueTests */,
+				435DCAD12CF62D770038A705 /* WigglezTreasueUITests */,
+				435DCAB52CF62D750038A705 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		435DCAB52CF62D750038A705 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435DCAB42CF62D750038A705 /* WigglezTreasue.app */,
+				435DCAC42CF62D770038A705 /* WigglezTreasueTests.xctest */,
+				435DCACE2CF62D770038A705 /* WigglezTreasueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435DCAB62CF62D750038A705 /* WigglezTreasue */ = {
+			isa = PBXGroup;
+			children = (
+				435DCAE12CF632A50038A705 /* Utility */,
+				435DCB052CF635320038A705 /* Modules */,
+				435DCAB72CF62D750038A705 /* WigglezTreasueApp.swift */,
+				435DCAB92CF62D760038A705 /* ContentView.swift */,
+				435DCABB2CF62D770038A705 /* Assets.xcassets */,
+				435DCABD2CF62D770038A705 /* Preview Content */,
+				433C275E2CF74ECF00BDD653 /* Launch Screen.storyboard */,
+			);
+			path = WigglezTreasue;
+			sourceTree = "<group>";
+		};
+		435DCABD2CF62D770038A705 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				435DCABE2CF62D770038A705 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		435DCAC72CF62D770038A705 /* WigglezTreasueTests */ = {
+			isa = PBXGroup;
+			children = (
+				435DCAC82CF62D770038A705 /* WigglezTreasueTests.swift */,
+			);
+			path = WigglezTreasueTests;
+			sourceTree = "<group>";
+		};
+		435DCAD12CF62D770038A705 /* WigglezTreasueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				435DCAD22CF62D770038A705 /* WigglezTreasueUITests.swift */,
+				435DCAD42CF62D770038A705 /* WigglezTreasueUITestsLaunchTests.swift */,
+			);
+			path = WigglezTreasueUITests;
+			sourceTree = "<group>";
+		};
+		435DCAE12CF632A50038A705 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				435DCAE72CF632DA0038A705 /* Constants */,
+				435DCAE62CF632D10038A705 /* Extensions */,
+				435DCAE42CF632C10038A705 /* CustomItems */,
+				435DCAE32CF632B70038A705 /* Models */,
+				435DCAE22CF632AD0038A705 /* DBManager */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		435DCAE22CF632AD0038A705 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				435DCB012CF635060038A705 /* DBModels */,
+				435DCAFF2CF634F90038A705 /* DBManager.swift */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		435DCAE32CF632B70038A705 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				435DCAFB2CF634AA0038A705 /* SignupModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		435DCAE42CF632C10038A705 /* CustomItems */ = {
+			isa = PBXGroup;
+			children = (
+				43F66F6F2D00516300F3570B /* Home */,
+				435DCAF82CF634530038A705 /* Signup */,
+				435DCAF32CF633D20038A705 /* CustomTextFields */,
+				435DCAF02CF6334D0038A705 /* SubmitButton */,
+			);
+			path = CustomItems;
+			sourceTree = "<group>";
+		};
+		435DCAE62CF632D10038A705 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				435DCAEC2CF633250038A705 /* Color+Extension.swift */,
+				435DCAEE2CF6333A0038A705 /* Image+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		435DCAE72CF632DA0038A705 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				435DCAE82CF632F20038A705 /* ColorConstants.swift */,
+				435DCAEA2CF633050038A705 /* FontsConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		435DCAF02CF6334D0038A705 /* SubmitButton */ = {
+			isa = PBXGroup;
+			children = (
+				435DCAF12CF633660038A705 /* CustomSubmitButton.swift */,
+			);
+			path = SubmitButton;
+			sourceTree = "<group>";
+		};
+		435DCAF32CF633D20038A705 /* CustomTextFields */ = {
+			isa = PBXGroup;
+			children = (
+				435DCAF42CF633E20038A705 /* CustomTextField.swift */,
+				435DCAF62CF634290038A705 /* OTPTextFields.swift */,
+			);
+			path = CustomTextFields;
+			sourceTree = "<group>";
+		};
+		435DCAF82CF634530038A705 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				435DCAF92CF634600038A705 /* SingupBackground.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		435DCB012CF635060038A705 /* DBModels */ = {
+			isa = PBXGroup;
+			children = (
+				435DCB022CF6350F0038A705 /* Signup */,
+			);
+			path = DBModels;
+			sourceTree = "<group>";
+		};
+		435DCB022CF6350F0038A705 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				435DCB032CF6351D0038A705 /* UserModel.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		435DCB052CF635320038A705 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				433C27612CF75B0000BDD653 /* Dashboard */,
+				433C27602CF75AE300BDD653 /* Authentication */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		435DCB062CF635440038A705 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				435DCB072CF6356B0038A705 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		435DCB092CF635900038A705 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				435DCB0A2CF6359D0038A705 /* SignupView.swift */,
+				435DCB0C2CF635A80038A705 /* SignupViewModel.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		435DCB0E2CF635E40038A705 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				435DCB0F2CF635EF0038A705 /* LoginViewModel.swift */,
+				435DCB112CF636010038A705 /* LoginView.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		435DCB132CF636160038A705 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				435DCB142CF636290038A705 /* ResetPasswordView.swift */,
+				435DCB162CF636430038A705 /* ResetPasswordViewModel.swift */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		435DCB182CF6365D0038A705 /* VerificationCode */ = {
+			isa = PBXGroup;
+			children = (
+				435DCB192CF636750038A705 /* VerificationCodeView.swift */,
+				435DCB1B2CF636870038A705 /* VerificationViewModel.swift */,
+			);
+			path = VerificationCode;
+			sourceTree = "<group>";
+		};
+		43F66F642D0047CD00F3570B /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				43F66F6B2D00483E00F3570B /* HomeTabView.swift */,
+				43F66F6D2D0048BE00F3570B /* HomeTabViewModel.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		43F66F662D0047EA00F3570B /* QuizesTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QuizesTab;
+			sourceTree = "<group>";
+		};
+		43F66F672D0047FA00F3570B /* LeaderTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LeaderTab;
+			sourceTree = "<group>";
+		};
+		43F66F682D00480100F3570B /* ProfileTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProfileTab;
+			sourceTree = "<group>";
+		};
+		43F66F6F2D00516300F3570B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				43F66F702D00518500F3570B /* ViewAllCategories.swift */,
+				43F66F722D0055C300F3570B /* HorizontalGrid.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		435DCAB32CF62D750038A705 /* WigglezTreasue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435DCAD82CF62D770038A705 /* Build configuration list for PBXNativeTarget "WigglezTreasue" */;
+			buildPhases = (
+				435DCAB02CF62D750038A705 /* Sources */,
+				435DCAB12CF62D750038A705 /* Frameworks */,
+				435DCAB22CF62D750038A705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WigglezTreasue;
+			productName = WigglezTreasue;
+			productReference = 435DCAB42CF62D750038A705 /* WigglezTreasue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		435DCAC32CF62D770038A705 /* WigglezTreasueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435DCADB2CF62D770038A705 /* Build configuration list for PBXNativeTarget "WigglezTreasueTests" */;
+			buildPhases = (
+				435DCAC02CF62D770038A705 /* Sources */,
+				435DCAC12CF62D770038A705 /* Frameworks */,
+				435DCAC22CF62D770038A705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435DCAC62CF62D770038A705 /* PBXTargetDependency */,
+			);
+			name = WigglezTreasueTests;
+			productName = WigglezTreasueTests;
+			productReference = 435DCAC42CF62D770038A705 /* WigglezTreasueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		435DCACD2CF62D770038A705 /* WigglezTreasueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435DCADE2CF62D770038A705 /* Build configuration list for PBXNativeTarget "WigglezTreasueUITests" */;
+			buildPhases = (
+				435DCACA2CF62D770038A705 /* Sources */,
+				435DCACB2CF62D770038A705 /* Frameworks */,
+				435DCACC2CF62D770038A705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435DCAD02CF62D770038A705 /* PBXTargetDependency */,
+			);
+			name = WigglezTreasueUITests;
+			productName = WigglezTreasueUITests;
+			productReference = 435DCACE2CF62D770038A705 /* WigglezTreasueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		435DCAAC2CF62D750038A705 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					435DCAB32CF62D750038A705 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					435DCAC32CF62D770038A705 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 435DCAB32CF62D750038A705;
+					};
+					435DCACD2CF62D770038A705 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 435DCAB32CF62D750038A705;
+					};
+				};
+			};
+			buildConfigurationList = 435DCAAF2CF62D750038A705 /* Build configuration list for PBXProject "WigglezTreasue" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 435DCAAB2CF62D750038A705;
+			productRefGroup = 435DCAB52CF62D750038A705 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				435DCAB32CF62D750038A705 /* WigglezTreasue */,
+				435DCAC32CF62D770038A705 /* WigglezTreasueTests */,
+				435DCACD2CF62D770038A705 /* WigglezTreasueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		435DCAB22CF62D750038A705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433C275F2CF74ECF00BDD653 /* Launch Screen.storyboard in Resources */,
+				435DCABF2CF62D770038A705 /* Preview Assets.xcassets in Resources */,
+				435DCABC2CF62D770038A705 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435DCAC22CF62D770038A705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435DCACC2CF62D770038A705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		435DCAB02CF62D750038A705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433C275D2CF74BFA00BDD653 /* NewPasswordView.swift in Sources */,
+				435DCB1A2CF636750038A705 /* VerificationCodeView.swift in Sources */,
+				435DCAE92CF632F20038A705 /* ColorConstants.swift in Sources */,
+				43F66F6C2D00483E00F3570B /* HomeTabView.swift in Sources */,
+				433C27642CF75B1400BDD653 /* HomeView.swift in Sources */,
+				435DCAED2CF633250038A705 /* Color+Extension.swift in Sources */,
+				435DCB0D2CF635A80038A705 /* SignupViewModel.swift in Sources */,
+				435DCABA2CF62D760038A705 /* ContentView.swift in Sources */,
+				435DCAEB2CF633050038A705 /* FontsConstants.swift in Sources */,
+				435DCB172CF636430038A705 /* ResetPasswordViewModel.swift in Sources */,
+				435DCAF52CF633E20038A705 /* CustomTextField.swift in Sources */,
+				43F66F732D0055C300F3570B /* HorizontalGrid.swift in Sources */,
+				435DCB042CF6351D0038A705 /* UserModel.swift in Sources */,
+				43F66F712D00518500F3570B /* ViewAllCategories.swift in Sources */,
+				435DCAFA2CF634600038A705 /* SingupBackground.swift in Sources */,
+				435DCAB82CF62D750038A705 /* WigglezTreasueApp.swift in Sources */,
+				435DCB002CF634F90038A705 /* DBManager.swift in Sources */,
+				435DCB102CF635EF0038A705 /* LoginViewModel.swift in Sources */,
+				435DCB0B2CF6359D0038A705 /* SignupView.swift in Sources */,
+				435DCB122CF636010038A705 /* LoginView.swift in Sources */,
+				435DCAEF2CF6333A0038A705 /* Image+Extension.swift in Sources */,
+				433C275A2CF74BA900BDD653 /* NewPasswordViewModel.swift in Sources */,
+				435DCB152CF636290038A705 /* ResetPasswordView.swift in Sources */,
+				43F66F6E2D0048BE00F3570B /* HomeTabViewModel.swift in Sources */,
+				435DCB1C2CF636870038A705 /* VerificationViewModel.swift in Sources */,
+				435DCAF72CF634290038A705 /* OTPTextFields.swift in Sources */,
+				435DCAF22CF633660038A705 /* CustomSubmitButton.swift in Sources */,
+				435DCAFC2CF634AA0038A705 /* SignupModel.swift in Sources */,
+				435DCB082CF6356B0038A705 /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435DCAC02CF62D770038A705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435DCAC92CF62D770038A705 /* WigglezTreasueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435DCACA2CF62D770038A705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435DCAD52CF62D770038A705 /* WigglezTreasueUITestsLaunchTests.swift in Sources */,
+				435DCAD32CF62D770038A705 /* WigglezTreasueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		435DCAC62CF62D770038A705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435DCAB32CF62D750038A705 /* WigglezTreasue */;
+			targetProxy = 435DCAC52CF62D770038A705 /* PBXContainerItemProxy */;
+		};
+		435DCAD02CF62D770038A705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435DCAB32CF62D750038A705 /* WigglezTreasue */;
+			targetProxy = 435DCACF2CF62D770038A705 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		435DCAD62CF62D770038A705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		435DCAD72CF62D770038A705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		435DCAD92CF62D770038A705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WigglezTreasue/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.WigglezTreasue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		435DCADA2CF62D770038A705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WigglezTreasue/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.WigglezTreasue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		435DCADC2CF62D770038A705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.WigglezTreasueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WigglezTreasue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WigglezTreasue";
+			};
+			name = Debug;
+		};
+		435DCADD2CF62D770038A705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.WigglezTreasueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WigglezTreasue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WigglezTreasue";
+			};
+			name = Release;
+		};
+		435DCADF2CF62D770038A705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.WigglezTreasueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WigglezTreasue;
+			};
+			name = Debug;
+		};
+		435DCAE02CF62D770038A705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.WigglezTreasueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WigglezTreasue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435DCAAF2CF62D750038A705 /* Build configuration list for PBXProject "WigglezTreasue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435DCAD62CF62D770038A705 /* Debug */,
+				435DCAD72CF62D770038A705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435DCAD82CF62D770038A705 /* Build configuration list for PBXNativeTarget "WigglezTreasue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435DCAD92CF62D770038A705 /* Debug */,
+				435DCADA2CF62D770038A705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435DCADB2CF62D770038A705 /* Build configuration list for PBXNativeTarget "WigglezTreasueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435DCADC2CF62D770038A705 /* Debug */,
+				435DCADD2CF62D770038A705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435DCADE2CF62D770038A705 /* Build configuration list for PBXNativeTarget "WigglezTreasueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435DCADF2CF62D770038A705 /* Debug */,
+				435DCAE02CF62D770038A705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 435DCAAC2CF62D750038A705 /* Project object */;
+}
