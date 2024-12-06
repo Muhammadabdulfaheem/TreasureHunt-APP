@@ -38,6 +38,10 @@
 		435DCB172CF636430038A705 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB162CF636430038A705 /* ResetPasswordViewModel.swift */; };
 		435DCB1A2CF636750038A705 /* VerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB192CF636750038A705 /* VerificationCodeView.swift */; };
 		435DCB1C2CF636870038A705 /* VerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DCB1B2CF636870038A705 /* VerificationViewModel.swift */; };
+		43DF25FB2D01A46F00FC715C /* CategoriesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF25FA2D01A46F00FC715C /* CategoriesDetails.swift */; };
+		43DF25FD2D01A47F00FC715C /* CategoriesDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF25FC2D01A47F00FC715C /* CategoriesDetailsViewModel.swift */; };
+		43DF25FF2D01A51000FC715C /* ColumnGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF25FE2D01A51000FC715C /* ColumnGrid.swift */; };
+		43DF26012D01B57900FC715C /* FormSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF26002D01B57900FC715C /* FormSheet.swift */; };
 		43F66F6C2D00483E00F3570B /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66F6B2D00483E00F3570B /* HomeTabView.swift */; };
 		43F66F6E2D0048BE00F3570B /* HomeTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66F6D2D0048BE00F3570B /* HomeTabViewModel.swift */; };
 		43F66F712D00518500F3570B /* ViewAllCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66F702D00518500F3570B /* ViewAllCategories.swift */; };
@@ -97,6 +101,10 @@
 		435DCB162CF636430038A705 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
 		435DCB192CF636750038A705 /* VerificationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeView.swift; sourceTree = "<group>"; };
 		435DCB1B2CF636870038A705 /* VerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewModel.swift; sourceTree = "<group>"; };
+		43DF25FA2D01A46F00FC715C /* CategoriesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDetails.swift; sourceTree = "<group>"; };
+		43DF25FC2D01A47F00FC715C /* CategoriesDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDetailsViewModel.swift; sourceTree = "<group>"; };
+		43DF25FE2D01A51000FC715C /* ColumnGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnGrid.swift; sourceTree = "<group>"; };
+		43DF26002D01B57900FC715C /* FormSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSheet.swift; sourceTree = "<group>"; };
 		43F66F6B2D00483E00F3570B /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 		43F66F6D2D0048BE00F3570B /* HomeTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewModel.swift; sourceTree = "<group>"; };
 		43F66F702D00518500F3570B /* ViewAllCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllCategories.swift; sourceTree = "<group>"; };
@@ -382,9 +390,19 @@
 			path = VerificationCode;
 			sourceTree = "<group>";
 		};
+		43DF25F92D01A43800FC715C /* CategoriesDetails */ = {
+			isa = PBXGroup;
+			children = (
+				43DF25FA2D01A46F00FC715C /* CategoriesDetails.swift */,
+				43DF25FC2D01A47F00FC715C /* CategoriesDetailsViewModel.swift */,
+			);
+			path = CategoriesDetails;
+			sourceTree = "<group>";
+		};
 		43F66F642D0047CD00F3570B /* HomeTab */ = {
 			isa = PBXGroup;
 			children = (
+				43DF25F92D01A43800FC715C /* CategoriesDetails */,
 				43F66F6B2D00483E00F3570B /* HomeTabView.swift */,
 				43F66F6D2D0048BE00F3570B /* HomeTabViewModel.swift */,
 			);
@@ -418,6 +436,8 @@
 				43F66F702D00518500F3570B /* ViewAllCategories.swift */,
 				43F66F722D0055C300F3570B /* HorizontalGrid.swift */,
 				43F66F752D00DBAE00F3570B /* HomeVerticalGrid.swift */,
+				43DF25FE2D01A51000FC715C /* ColumnGrid.swift */,
+				43DF26002D01B57900FC715C /* FormSheet.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -559,10 +579,12 @@
 				43F66F6C2D00483E00F3570B /* HomeTabView.swift in Sources */,
 				433C27642CF75B1400BDD653 /* HomeView.swift in Sources */,
 				435DCAED2CF633250038A705 /* Color+Extension.swift in Sources */,
+				43DF25FD2D01A47F00FC715C /* CategoriesDetailsViewModel.swift in Sources */,
 				435DCB0D2CF635A80038A705 /* SignupViewModel.swift in Sources */,
 				435DCABA2CF62D760038A705 /* ContentView.swift in Sources */,
 				435DCAEB2CF633050038A705 /* FontsConstants.swift in Sources */,
 				435DCB172CF636430038A705 /* ResetPasswordViewModel.swift in Sources */,
+				43DF26012D01B57900FC715C /* FormSheet.swift in Sources */,
 				435DCAF52CF633E20038A705 /* CustomTextField.swift in Sources */,
 				43F66F732D0055C300F3570B /* HorizontalGrid.swift in Sources */,
 				435DCB042CF6351D0038A705 /* UserModel.swift in Sources */,
@@ -572,12 +594,14 @@
 				435DCAB82CF62D750038A705 /* WigglezTreasueApp.swift in Sources */,
 				435DCB002CF634F90038A705 /* DBManager.swift in Sources */,
 				435DCB102CF635EF0038A705 /* LoginViewModel.swift in Sources */,
+				43DF25FF2D01A51000FC715C /* ColumnGrid.swift in Sources */,
 				435DCB0B2CF6359D0038A705 /* SignupView.swift in Sources */,
 				435DCB122CF636010038A705 /* LoginView.swift in Sources */,
 				435DCAEF2CF6333A0038A705 /* Image+Extension.swift in Sources */,
 				433C275A2CF74BA900BDD653 /* NewPasswordViewModel.swift in Sources */,
 				435DCB152CF636290038A705 /* ResetPasswordView.swift in Sources */,
 				43F66F6E2D0048BE00F3570B /* HomeTabViewModel.swift in Sources */,
+				43DF25FB2D01A46F00FC715C /* CategoriesDetails.swift in Sources */,
 				435DCB1C2CF636870038A705 /* VerificationViewModel.swift in Sources */,
 				435DCAF72CF634290038A705 /* OTPTextFields.swift in Sources */,
 				435DCAF22CF633660038A705 /* CustomSubmitButton.swift in Sources */,
